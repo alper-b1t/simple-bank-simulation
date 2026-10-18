@@ -6,9 +6,9 @@ def bank(budget):
     while operation != 4:
         print("Hosgeldiniz,yapmak istediginiz islemi secin \n1-Bakiye goruntule \n2-Para cek \n3-Para Yatir \n4-Cikis yap")
         try:
-            operation = int(input("Isleminizi tuslayin "))
+            operation = int(input("Isleminizi tuslayin= "))
         except ValueError:
-            print("Gecersiz islem tuslaydiniz!")
+            print("Gecersiz islem tusladiniz!")
             continue
         if operation == 1:
             print("Bakiyeniz= ", budget)
@@ -40,7 +40,7 @@ def bank(budget):
         elif operation == 4:
             print("Gorusmek uzere")
         else:
-            print("Gecersiz islem tuslaydiniz!")
+            print("Gecersiz islem tusladiniz!")
 
 while True:
     password_entry = getpass.getpass("Hosgeldiniz, Sifrenizi giriniz= ")
