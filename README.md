@@ -32,8 +32,8 @@ Program başlarken önce bir parola belirlemenizi, ardından başlangıç bakiye
 
 ## Bu Projede Öğrendiklerim
 
-- while döngüsü ve reak / continue kullanımı
-- 	ry-except ile hata yönetimi
+- while döngüsü ve break / continue kullanımı
+- try-except ile hata yönetimi
 - Fonksiyon tanımlama ve parametre kullanımı
 - import ile modül kullanımı
 - getpass modülüyle gizli giriş alma
